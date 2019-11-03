@@ -15,8 +15,9 @@ void setup()
 void loop()
 {
 	emu.checkEmuSerial();
-  Serial.println(emu.emu_data.RPM); //uint16_t
-  Serial.println(emu.emu_data.Batt); //float  
+	
+  	Serial.println(emu.emu_data.RPM); //uint16_t
+ 	Serial.println(emu.emu_data.Batt); //float  
 }
  ```
  
