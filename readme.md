@@ -21,4 +21,4 @@ void loop()
 }
  ```
  
-Tested using a MAX3232CPE with an ESP32.
+Tested using a MAX3232CPE with an ESP32. Only for personal (non-commerical) use!
