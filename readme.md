@@ -1,3 +1,5 @@
+This small project allows you to read the ECUMaster Serial Stream to build your own data display.
+
 Run the pythonfile if you are using a different version than 1.200, the version.xml file needs to be in the same folder (you can find it in the ECUMaster software folder). This will update the emuStruct.h and emuFormat.h files which contain the dataformat. To save memory it makes sense to filter the buffered values, see the Filter.txt file in the extras folder and rerun the python script. See the generated emuStruct.h file for the available channels.
 
 Example:
