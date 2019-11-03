@@ -10,7 +10,7 @@
 #define EMUSERIAL_MAGIC 0xA3
 
 //Python generated Struct
-#include "emuStruct.h"
+#include "format/emuStruct.h"
 
 //From: https://github.com/fscker/realdash_arduino/
 //From: https://github.com/fscker/realdash_arduino/
@@ -36,7 +36,7 @@ private:
 	struct emu_frame currentFrame;
 
 //Python generated formatFile
-#include "emuFormat.h"
+#include "format/emuFormat.h"
 
 public:
 	EMUSerial(Stream& serial);

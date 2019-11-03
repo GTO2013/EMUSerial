@@ -22,8 +22,8 @@ else:
   
     root = ET.parse(xmlfile).getroot()
 
-    f = open("..\emuFormat.h", "w",encoding='utf-8')
-    fStruct = open("..\emuStruct.h", "w",encoding='utf-8')
+    f = open("../src/format/emuFormat.h", "w",encoding='utf-8')
+    fStruct = open("../src/format/emuStruct.h", "w",encoding='utf-8')
     variables = None
 
     if filterfile != None:
