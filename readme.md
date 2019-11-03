@@ -2,6 +2,7 @@ Run the pythonfile if you are using a different version than 1.200 with the vers
 
 Example:
 
+```
 #include <EMUSerial.h>
 EMUSerial emu(Serial1);
 
@@ -17,4 +18,4 @@ void loop()
   Serial.println(emu.emu_data.RPM); //uint16_t
   Serial.println(emu.emu_data.Batt); //float  
 }
-  
+ ```
