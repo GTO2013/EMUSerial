@@ -24,3 +24,4 @@ void loop()
  ```
  
 Tested using a MAX3232CPE with an ESP32. Only for personal (non-commerical) use!
+This library can also be installed via the Arduino Boardmanager.
