@@ -5,6 +5,7 @@ This library allows you to read the ECUMaster serial stream with an Arduino. It 
 
 **Tested using a MAX3232CPE converter with an ESP32.**
 
+For CAN communication you can use the EMUcan library: https://github.com/designer2k2/EMUcan
 
 ## Setup
 This library can easily be installed via the Arduino Boardmanager.
